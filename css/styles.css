@@ -49,18 +49,22 @@ address {
   justify-content: space-between;
   align-items: center;
 }
-
+.header-navigator {
+  display: flex;
+  align-items: center;
+}
 .container {
   width: calc(1128px + 15px * 2);
   padding: 0 15px;
   margin: 0 auto;
   outline: 2px solid red;
 }
-.logo-header {
+/*
+.logo-navigator {
   display: flex;
   gap: 76px;
-  align-items: center;
-}
+  align-items: center;*/
+
 .header-logo-link {
   color: #2e2f42;
   font-family: Raleway;
@@ -70,7 +74,7 @@ address {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /*margin-right: 76px;*/
+  margin-right: 76px;
 }
 
 .logo-blue {
@@ -81,11 +85,11 @@ address {
   display: flex;
   gap: 40px;
 }
-/*
+
 .header-menu-item {
-  margin-right: 40px;
+  padding: 24px 0;
 }
-*/
+
 .header-menu-item:last-child {
   margin-right: 0;
 }
@@ -126,6 +130,10 @@ address {
   color: #404bbf;
 }
 
+.address {
+  display: flex;
+  gap: 40px;
+}
 /*=============hero=============*/
 
 .hero {
