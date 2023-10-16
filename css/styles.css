@@ -342,12 +342,12 @@ address {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  color: #f4f4fd;
 }
 .footer-logo {
 }
 
 .footer-logo-link {
-  color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
@@ -360,7 +360,6 @@ address {
 
 .footer-text {
   max-width: 264px;
-  color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
